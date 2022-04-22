@@ -22,7 +22,7 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 * [High-Performance Deep Learning (ESP-DL)](https://github.com/espressif/esp-dl)
 * [Digital Signal Processing (ESP-DSP)](https://github.com/espressif/esp-dsp)
 
-To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](esp-projects.md).
+To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](profile/esp-projects.md).
 
 If you are looking for the official ESP-IDF documentation, click on [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html) link and select the ESP32 series you are interested in from the dropdown menu in the top left corner.
 
