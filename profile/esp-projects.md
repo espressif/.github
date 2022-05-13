@@ -55,3 +55,13 @@ If you need to connect your project to third-party cloud providers, we have SDKs
 | [ESP-AWS-IoT](https://github.com/espressif/esp-aws-iot)       | This framework enables AWS IoT cloud connectivity with ESP32 based platforms using AWS IoT Device Embedded SDK.         |
 | [ESP-Azure](https://github.com/espressif/esp-azure)           | ESP Azure IoT SDK                                                                                                       |
 | [ESP-Google-IoT](https://github.com/espressif/esp-google-iot) | This framework enables Google Cloud IoT Core connectivity with ESP32 based platforms using Google Cloud IoT Device SDK. |
+
+## Related and Third-Party Projects
+
+Espressif also supports various community projects.
+
+| Project                                                     | About                                                                                                           |
+|:-----------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------|
+| [Nuttx](https://github.com/apache/incubator-nuttx)               | Apache NuttX (Incubating) is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. |
+| [Rust](https://github.com/esp-rs)               | Rust on ESP Community projects enabling the use of the Rust programming language on various SoCs and modules produced by Espressif Systems. |
+| [Zephyr](https://github.com/zephyrproject-rtos/zephyr/)               | The Zephyr Project is a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind. |
