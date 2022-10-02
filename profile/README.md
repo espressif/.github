@@ -1,4 +1,4 @@
-![DevCon_Banner](githubpage_banner.png)
+![DevCon_Banner](profile/githubpage_banner.png)
 
 [Espressif DevCon22 Registration](https://devcon.espressif.com)
 
