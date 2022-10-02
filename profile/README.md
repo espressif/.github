@@ -1,3 +1,7 @@
+![DevCon_Banner](githubpage_banner.png)
+
+[Espressif DevCon22 Registration](https://devcon.espressif.com)
+
 # Welcome to Espressif’s site on GitHub 
 
 Espressif supports a large variety of open-source projects, including SDKs, components, libraries, solutions, and tools, which aim to help developers bring their projects to life.
