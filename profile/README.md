@@ -10,16 +10,14 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 ## Project Highlight
 
 <div align="center">
-    <img src="esp_registry_logo.png">
+    <img src="profile/esp_registry_logo.png">
 </div>
 
 ###  **ESP Registry**
 
-The ESP Register is a tool that downloads dependencies for any ESP-IDF CMake project. It makes sure that the right versions of all components required for a successful build of your project are in place. The download happens automatically during a run of CMake.
+The **ESP Registry** is a tool that downloads dependencies for any ESP-IDF CMake project. It makes sure that the right versions of all components required for a successful build of your project are in place. The download happens automatically during a run of CMake.
 
-It can source components either from the component registry or from a git repository.
-
-Find the most exciting ESP-IDF components on [ESP Registry](https://github.com/espressif/arduino-esp32)!
+Find the most exciting ESP-IDF components on [ESP Registry](https://components.espressif.com/)!
 
 ## Frameworks
 
