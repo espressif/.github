@@ -7,6 +7,22 @@ To check out all the series of SoCs from Espressif, please visit our [ESP Produc
 
 Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
+## Espressif Developers Conference 2023 - DevCon23
+<img width="1033" alt="LinkedIn_event" src="https://github.com/VojtechBartoska/.github/assets/76958047/8d4b9b47-f622-4cb0-a2ad-b7331808ed5f">
+
+---
+
+We would like to invite you to our second edition of Espressif Developer Conference which will take place on September 12-13, 2023.
+
+Conference is for free and will be streamed on our [Espressif Youtube channel](https://www.youtube.com/@EspressifSystems).
+
+**You can look forward for various IoT topics, more details with full program is available at https://devcon.espressif.com/.**
+
+---
+
+<details>
+  <summary>For more information about Espressif organization and it's projects click here.</summary>
+
 ## Frameworks
 
 * [IoT Development Framework (ESP-IDF)](https://github.com/espressif/esp-idf)
@@ -16,24 +32,18 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 * [AT Commands Firmware (ESP-AT)](https://github.com/espressif/esp-at)
 * [Communication Processor Firmware (ESP-HOSTED)](https://github.com/espressif/esp-hosted)
 * [RainMaker](https://github.com/espressif/esp-rainmaker)
+* [ESP-Matter](https://github.com/espressif/esp-matter)
 * [Connectionless Wi-Fi Communication Protocol (ESP-NOW)](https://github.com/espressif/esp-now)
 
 ## Libraries
 * [High-Performance Deep Learning (ESP-DL)](https://github.com/espressif/esp-dl)
 * [Digital Signal Processing (ESP-DSP)](https://github.com/espressif/esp-dsp)
 
-## Espressif Developers Conference 2023 - DevCon23
 
-We would like to invite you to our second edition of Espressif Developer Conference which will take place on September 12-13, 2023.
-
-Conference is for free and will be streamed on our [Espressif Youtube channel](https://www.youtube.com/@EspressifSystems)
-
-You can look forward for various IoT topics, more details with full program is available at https://devcon.espressif.com/.
-
----
 
 To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](profile/esp-projects.md).
 
 If you are looking for the official ESP-IDF documentation, click on [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html) link and select the ESP32 series you are interested in from the dropdown menu in the top left corner.
 
 :office: To learn about the full range of products and services that Espressif offers, please visit our official website [Espressif](https://www.espressif.com).
+</details>
