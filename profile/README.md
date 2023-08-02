@@ -5,8 +5,6 @@ Espressif supports a large variety of open-source projects, including SDKs, comp
 All of Espressif’s official software, relating to the various series of ESP SoCs including ESP32  and ESP8266, are available on this GitHub site.
 To check out all the series of SoCs from Espressif, please visit our [ESP Product Selector](https://products.espressif.com).
 
-Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
-
 ## Espressif Developers Conference 2023 - DevCon23
 <img width="1033" alt="LinkedIn_event" src="https://github.com/VojtechBartoska/.github/assets/76958047/8d4b9b47-f622-4cb0-a2ad-b7331808ed5f">
 
@@ -39,7 +37,7 @@ Conference is for free and will be streamed on our [Espressif Youtube channel](h
 * [High-Performance Deep Learning (ESP-DL)](https://github.com/espressif/esp-dl)
 * [Digital Signal Processing (ESP-DSP)](https://github.com/espressif/esp-dsp)
 
-
+Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
 To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](profile/esp-projects.md).
 
