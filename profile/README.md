@@ -22,6 +22,14 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 * [High-Performance Deep Learning (ESP-DL)](https://github.com/espressif/esp-dl)
 * [Digital Signal Processing (ESP-DSP)](https://github.com/espressif/esp-dsp)
 
+## Espressif Developers Conferences 2023 - DevCon23
+
+We would like to invite you to our second edition of Espressif Developer Conference which will take place on September 12-13, 2023.
+
+Conference is for free and will be streamed on our [Espressif Youtube channel](https://www.youtube.com/@EspressifSystems)
+
+You can look forward for various IoT topics, more details with full prgram is available at https://devcon.espressif.com/.
+
 To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](profile/esp-projects.md).
 
 If you are looking for the official ESP-IDF documentation, click on [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html) link and select the ESP32 series you are interested in from the dropdown menu in the top left corner.
