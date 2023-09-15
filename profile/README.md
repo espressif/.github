@@ -5,9 +5,6 @@ Espressif supports a large variety of open-source projects, including SDKs, comp
 All of Espressif’s official software, relating to the various series of ESP SoCs including ESP32  and ESP8266, are available on this GitHub site.
 To check out all the series of SoCs from Espressif, please visit our [ESP Product Selector](https://products.espressif.com).
 
-<details>
-  <summary>For more information about Espressif organization and it's projects click here.</summary>
-
 ## Frameworks
 
 * [IoT Development Framework (ESP-IDF)](https://github.com/espressif/esp-idf)
@@ -31,4 +28,3 @@ To know more about our frameworks, solutions and Libraries, see this brief expla
 If you are looking for the official ESP-IDF documentation, click on [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html) link and select the ESP32 series you are interested in from the dropdown menu in the top left corner.
 
 :office: To learn about the full range of products and services that Espressif offers, please visit our official website [Espressif](https://www.espressif.com).
-</details>
