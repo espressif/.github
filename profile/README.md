@@ -28,11 +28,14 @@ If you want to contribute to this project, you can do so at [IDF Component Manag
 * [AT Commands Firmware (ESP-AT)](https://github.com/espressif/esp-at)
 * [Communication Processor Firmware (ESP-HOSTED)](https://github.com/espressif/esp-hosted)
 * [RainMaker](https://github.com/espressif/esp-rainmaker)
+* [ESP-Matter](https://github.com/espressif/esp-matter)
 * [Connectionless Wi-Fi Communication Protocol (ESP-NOW)](https://github.com/espressif/esp-now)
 
 ## Libraries
 * [High-Performance Deep Learning (ESP-DL)](https://github.com/espressif/esp-dl)
 * [Digital Signal Processing (ESP-DSP)](https://github.com/espressif/esp-dsp)
+
+Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
 To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](profile/esp-projects.md).
 
