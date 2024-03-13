@@ -5,6 +5,20 @@ Espressif supports a large variety of open-source projects, including SDKs, comp
 All of Espressif’s official software, relating to the various series of ESP SoCs including ESP32  and ESP8266, are available on this GitHub site.
 To check out all the series of SoCs from Espressif, please visit our [ESP Product Selector](https://products.espressif.com).
 
+Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
+
+## Project Highlight
+
+<div align="center">
+    <img src="profile/esp_registry_logo.png">
+</div>
+
+###  **ESP Registry**
+
+The **ESP Registry** is a tool that downloads dependencies for any ESP-IDF CMake project. It makes sure that the right versions of all components required for a successful build of your project are in place. The download happens automatically during a run of CMake.
+
+Find the most exciting ESP-IDF components on [ESP Registry](https://components.espressif.com/)!
+If you want to contribute to this project, you can do so at [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).
 ## Frameworks
 
 * [IoT Development Framework (ESP-IDF)](https://github.com/espressif/esp-idf)
