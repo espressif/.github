@@ -10,14 +10,15 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 ## Project Highlight
 
 <div align="center">
-    <img src="profile/esp_registry_logo.png" style="width: 50%; height: auto">
+    <img src="profile/Logo_white_Component_Registry.png" style="width: 50%; height: auto">
 </div>
 
-###  **ESP Registry**
+###  **ESP Component Registry**
 
-The **ESP Registry** is a tool that downloads dependencies for any ESP-IDF CMake project. It makes sure that the right versions of all components required for a successful build of your project are in place. The download happens automatically during a run of CMake.
+The **ESP Component Registry** is a tool for components that can be used with the ESP-IDF and provides a convenient way for developers to discover and download components for their projects.
 
-Find the most exciting ESP-IDF components on [ESP Registry](https://components.espressif.com/)!
+Find the most exciting ESP-IDF components on [ESP Component Registry](https://components.espressif.com/)!
+
 If you want to contribute to this project, you can do so at [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).
 ## Frameworks
 
