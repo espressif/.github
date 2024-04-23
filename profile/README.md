@@ -7,6 +7,18 @@ To check out all the series of SoCs from Espressif, please visit our [ESP Produc
 
 Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
+## Call for Presentations - DevCon24
+
+Third edition of Online Developer’s Conference DevCon24 will take place on September 3-5, 2024.
+
+We are now collecting talks proposals, so don't miss this opportunity to showcase your interesting projects.
+
+We are open to any proposal, Maker’s projects are very welcomed!
+
+If you would like to submit your presentation proposal, you can find more details at https://devcon.espressif.com/.
+
+![alt text](<2. CFP_QR Code_EN.jpg>)
+
 ## Project Highlight
 
 <div align="center">
@@ -15,11 +27,10 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 
 ###  **ESP Component Registry**
 
-The **ESP Component Registry** is a tool for components that can be used with the ESP-IDF and provides a convenient way for developers to discover and download components for their projects.
+The **[ESP Component Registry](https://components.espressif.com/)** allows you to discover, download, and publish components and examples for the ESP-IDF. 
 
-Find the most exciting ESP-IDF components on [ESP Component Registry](https://components.espressif.com/)!
+If you have any issues or suggestions about the ESP Component Registry, feel free to open an issue in the [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).  
 
-If you want to contribute to this project, you can do so at [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).
 ## Frameworks
 
 * [IoT Development Framework (ESP-IDF)](https://github.com/espressif/esp-idf)
