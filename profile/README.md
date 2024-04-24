@@ -15,15 +15,16 @@ We are now collecting talks proposals, so don't miss this opportunity to showcas
 
 For more details visit https://devcon.espressif.com/.
 
-![alt text](<2. CFP_QR Code_EN.jpg>)
+<p align="center">
+    <img src="2. CFP_QR Code_EN.jpg">
+</p>
 
 ## Project Highlight
 
-<div align="center">
-    <img src="profile/esp_registry_logo.png">
-    <img src="profile/esp_registry_logo.png" style="width: 50%; height: auto">
-</div>
-
+<p align="center">
+    <img src="esp_registry_logo.png">
+</p>
+  
 ###  **ESP Component Registry**
 
 The **[ESP Component Registry](https://components.espressif.com/)** allows you to discover, download, and publish components and examples for the ESP-IDF. 
