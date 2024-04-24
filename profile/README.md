@@ -9,20 +9,19 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 
 ## Call for Presentations - DevCon24
 
-Third edition of Online Developer’s Conference DevCon24 will take place on September 3-5, 2024.
+The third edition of Online Developer’s Conference DevCon24 will take place on September 3-5, 2024.
 
 We are now collecting talks proposals, so don't miss this opportunity to showcase your interesting projects.
 
-We are open to any proposal, Maker’s projects are very welcomed!
-
-If you would like to submit your presentation proposal, you can find more details at https://devcon.espressif.com/.
+For more details visit https://devcon.espressif.com/.
 
 ![alt text](<2. CFP_QR Code_EN.jpg>)
 
 ## Project Highlight
 
 <div align="center">
-    <img src="profile/Logo_white_Component_Registry.png" style="width: 50%; height: auto">
+    <img src="profile/esp_registry_logo.png">
+    <img src="profile/esp_registry_logo.png" style="width: 50%; height: auto">
 </div>
 
 ###  **ESP Component Registry**
