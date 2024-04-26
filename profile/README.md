@@ -7,18 +7,30 @@ To check out all the series of SoCs from Espressif, please visit our [ESP Produc
 
 Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
+## Call for Presentations - DevCon24
+
+The third edition of Online Developer’s Conference DevCon24 will take place on September 3-5, 2024.
+
+We are now collecting talks proposals, so don't miss this opportunity to showcase your interesting projects.
+
+For more details visit https://devcon.espressif.com/.
+
+<p align="center">
+    <img src="2. CFP_QR Code_EN.jpg">
+</p>
+
 ## Project Highlight
 
-<div align="center">
-    <img src="profile/esp_registry_logo.png" style="width: 50%; height: auto">
-</div>
+<p align="center">
+    <img src="esp_registry_logo.png">
+</p>
+  
+###  **ESP Component Registry**
 
-###  **ESP Registry**
+The **[ESP Component Registry](https://components.espressif.com/)** allows you to discover, download, and publish components and examples for the ESP-IDF. 
 
-The **ESP Registry** is a tool that downloads dependencies for any ESP-IDF CMake project. It makes sure that the right versions of all components required for a successful build of your project are in place. The download happens automatically during a run of CMake.
+If you have any issues or suggestions about the ESP Component Registry, feel free to open an issue in the [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).  
 
-Find the most exciting ESP-IDF components on [ESP Registry](https://components.espressif.com/)!
-If you want to contribute to this project, you can do so at [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).
 ## Frameworks
 
 * [IoT Development Framework (ESP-IDF)](https://github.com/espressif/esp-idf)
