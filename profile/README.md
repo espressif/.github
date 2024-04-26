@@ -16,13 +16,13 @@ We are now collecting talks proposals, so don't miss this opportunity to showcas
 For more details visit https://devcon.espressif.com/.
 
 <p align="center">
-    <img src="2. CFP_QR Code_EN.jpg">
+    <img src="profile/2. CFP_QR Code_EN.jpg">
 </p>
 
 ## Project Highlight
 
 <p align="center">
-    <img src="esp_registry_logo.png">
+    <img src="profile/esp_registry_logo.png">
 </p>
   
 ###  **ESP Component Registry**
