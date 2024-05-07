@@ -7,18 +7,6 @@ To check out all the series of SoCs from Espressif, please visit our [ESP Produc
 
 Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
-## Call for Presentations - DevCon24
-
-The third edition of Online Developer’s Conference DevCon24 will take place on September 3-5, 2024.
-
-We are now collecting talks proposals, so don't miss this opportunity to showcase your interesting projects.
-
-For more details visit https://devcon.espressif.com/.
-
-<p align="center">
-    <img src="profile/2. CFP_QR Code_EN.jpg">
-</p>
-
 ## Project Highlight
 
 <p align="center">
