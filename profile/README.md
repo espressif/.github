@@ -10,7 +10,7 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 ## Project Highlight
 
 <p align="center">
-    <img src="profile/esp_registry_logo.png">
+    <img src="esp_registry_logo.png">
 </p>
   
 ###  **ESP Component Registry**
