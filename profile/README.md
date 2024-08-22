@@ -7,17 +7,22 @@ To check out all the series of SoCs from Espressif, please visit our [ESP Produc
 
 Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
-## Project Highlight
+## Upcoming Event: DevCon24
 
 <p align="center">
-    <img src="esp_registry_logo.png">
+    <img src="devcon24.png">
 </p>
   
-###  **ESP Component Registry**
+Get excited and stay tuned for talks on various presentation topics, new product releases, and upgraded solutions at the Espressif Developer Conference!
 
-The **[ESP Component Registry](https://components.espressif.com/)** allows you to discover, download, and publish components and examples for the ESP-IDF. 
+### Join Us!
 
-If you have any issues or suggestions about the ESP Component Registry, feel free to open an issue in the [IDF Component Manager repository](https://github.com/espressif/idf-component-manager).  
+- **When: Sep 3-5, 13:00-18:30 CEST**
+- **Where: [Espressif YouTube Channel](https://www.youtube.com/@EspressifSystems)**
+
+We are thrilled to have you join our community of innovators and creators in the exciting world of Espressif products! The Espressif Developer Portal is not just a platform; it’s a community-driven space where ideas flourish and projects come to life.
+
+For more information about it, please visit [DevCon24](https://devcon.espressif.com/) site.
 
 ## Frameworks
 
