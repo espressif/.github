@@ -1,0 +1,25 @@
+name: "\U0001F4AD Other Issue or Suggestion"
+description: "Share any suggestions or issues that aren't related to bugs or feature requests."
+labels: ["Type: Question"]
+body:
+  - id: checklist
+    type: checkboxes
+    attributes:
+      label: "Checklist"
+      description: "Before submitting, please make sure you have completed the following:"
+      options:
+        - label: "Checked the issue tracker for similar issues to ensure this is not a duplicate."
+          required: true
+        - label: "Provided a clear description of your suggestion."
+          required: true
+        - label: "Included any relevant context or examples."
+          required: true
+
+  - id: issue-description
+    type: textarea
+    attributes:
+      label: "Issue or Suggestion Description"
+      description: "Please provide a detailed description of the issue or suggestion."
+      placeholder: "Describe the issue or suggestion in detail..."
+    validations:
+      required: true

@@ -1,0 +1,143 @@
+---
+name: "\U0001F41B Bug Report"
+description: 'File a bug/issue'
+labels: ['Type: Bug']
+
+body:
+  - id: checklist
+    type: checkboxes
+    attributes:
+      label: 'Checklist'
+      description: 'Before submitting, please make sure you have completed the following:'
+      options:
+        - label: 'Checked the issue tracker for similar issues to ensure this is not a duplicate'
+          required: true
+        - label: 'Read the documentation to confirm the issue is not addressed there and your configuration is set correctly'
+          required: true
+        - label: "Tested with the latest version to ensure the issue hasn't been fixed"
+          required: true
+
+  - id: bug-frequency
+    type: dropdown
+    attributes:
+      label: 'How often does this bug occurs?'
+      multiple: false
+      options:
+        - 'always'
+        - 'often'
+        - 'rarely'
+        - 'only once'
+    validations:
+      required: true
+
+  - id: expected-behavior
+    type: textarea
+    attributes:
+      label: 'Expected behavior'
+      description: 'A clear and concise description of what you expected to happen.'
+      placeholder: 'I expected it to...'
+    validations:
+      required: true
+
+  - id: actual-behavior
+    type: textarea
+    attributes:
+      label: 'Actual behavior (suspected bug)'
+      description: 'Please describe the actual behavior. If applicable, add screenshots to help explain your problem.'
+      placeholder: 'Instead, it...'
+    validations:
+      required: true
+
+  - id: error-logs
+    type: textarea
+    attributes:
+      label: 'Error logs or terminal output'
+      placeholder: 'Paste error logs or terminal output here...'
+      render: 'shell'
+    validations:
+      required: false
+
+  - id: steps-to-reproduce
+    type: textarea
+    attributes:
+      label: 'Steps to reproduce the behavior'
+      description: 'How do you trigger this bug?'
+      placeholder: |
+        1. Set the environment variable '...'
+        2. Install package '...'
+        3. Run command '...'
+        4. See error
+        ...
+    validations:
+      required: true
+
+  - id: release-version
+    type: input
+    attributes:
+      label: 'Project release version'
+      description: 'On which release version of our project does this issue occur?'
+      placeholder: 'e.g., v1.4.0, latest, unreleased master'
+    validations:
+      required: true
+
+  - id: os-architecture
+    type: dropdown
+    attributes:
+      label: 'System architecture'
+      description: "Select your system's CPU architecture."
+      multiple: false
+      options:
+        - 'Intel/AMD 64-bit (modern PC, older Mac)'
+        - 'ARM 64-bit (Apple M1/M2, Raspberry Pi 4/5)'
+        - 'ARM 32-bit (Raspberry Pi 32-bit)'
+        - 'other (details in Additional context)'
+    validations:
+      required: true
+
+  - id: os-type
+    type: dropdown
+    attributes:
+      label: 'Operating system'
+      description: 'Select the operating system your system is running.'
+      multiple: false
+      options:
+        - 'Linux'
+        - 'Windows'
+        - 'MacOS'
+    validations:
+      required: true
+
+  - id: os-version
+    type: input
+    attributes:
+      label: 'Operating system version'
+      description: 'Specify the detailed version of your operating system.'
+      placeholder: 'e.g., Windows 10, Ubuntu 20.04, Monterey'
+    validations:
+      required: true
+
+  - id: shell
+    type: dropdown
+    attributes:
+      label: 'Shell'
+      description: 'Select which command-line shell you are using.'
+      multiple: false
+      options:
+        - 'ZSH'
+        - 'Bash'
+        - 'sh'
+        - 'Fish'
+        - 'PowerShell'
+        - 'CMD'
+        - 'other (details in Additional context)'
+    validations:
+      required: true
+
+  - id: additional-context
+    type: textarea
+    attributes:
+      label: 'Additional context'
+      description: 'Add any extra details or context that might help in understanding the issue.'
+      placeholder: 'Add any other context here...'
+    validations:
+      required: false
