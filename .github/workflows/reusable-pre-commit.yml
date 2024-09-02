@@ -1,0 +1,34 @@
+---
+# Reusable workflow in  "espressif/.github" repository (Organization level)
+name: Pre-commit (PR code changes)
+
+on:
+  workflow_call:
+    inputs:
+      python-version:
+        description: 'The Python version to use in CI'
+        required: false
+        type: string
+        default: '3.9'
+      skip:
+        description: "The pre-commit hooks to skip in CI"
+        required: false
+        type: string
+        default: 'pip-compile'
+
+jobs:
+  check-pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ inputs.python-version }}
+
+      - name: Run pre-commit
+        uses: pre-commit/action@v3.0.1
+        env:
+          SKIP: ${{ inputs.skip }} 
