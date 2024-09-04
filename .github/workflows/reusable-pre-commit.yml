@@ -17,7 +17,7 @@ on:
         default: 'pip-compile'
 
 jobs:
-  check-pre-commit:
+  pre-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -31,4 +31,4 @@ jobs:
       - name: Run pre-commit
         uses: pre-commit/action@v3.0.1
         env:
-          SKIP: ${{ inputs.skip }} 
+          SKIP: ${{ inputs.skip }}

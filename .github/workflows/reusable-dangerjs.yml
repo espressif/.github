@@ -100,15 +100,15 @@ permissions:
   contents: write
 
 jobs:
-  pull-request-style-linter:
+  dangerjs:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out PR head
+      - name: Check out Pull Request head
         uses: actions/checkout@v4
         with:
           ref: ${{ inputs.ref }}
 
-      - name: DangerJS pull request linter
+      - name: DangerJS (PR style linter)
         uses: espressif/shared-github-dangerjs@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
