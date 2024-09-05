@@ -7,21 +7,6 @@ To check out all the series of SoCs from Espressif, please visit our [ESP Produc
 
 Below you can find a selection of Espressif’s open-source projects. Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
-## Upcoming Event: DevCon24
-
-<p align="center">
-    <img src="devcon24.png">
-</p>
-  
-Get excited and stay tuned for various talks and speakers, new product releases, and upgraded solutions at the Espressif Developer Conference!
-
-### Join Us!
-
-- **When: Sep 3-5, 13:00-18:30 CEST**
-- **Where: [Espressif YouTube Channel](https://www.youtube.com/@EspressifSystems)**
-
-**For more information about it, please visit [DevCon24](https://devcon.espressif.com/) site.**
-
 ## Frameworks
 
 * [IoT Development Framework (ESP-IDF)](https://github.com/espressif/esp-idf)
