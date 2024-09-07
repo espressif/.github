@@ -1,0 +1,52 @@
+name: "\U0001F4A1 Feature Request"
+description: "Suggest a new feature or enhancement"
+labels: ["Type: Feature Request"]
+body:
+  - id: checklist
+    type: checkboxes
+    attributes:
+      label: "Checklist"
+      description: "Before submitting, please make sure you have completed the following:"
+      options:
+        - label: "Checked the issue tracker for similar issues to ensure this is not a duplicate."
+          required: true
+        - label: "Described the feature in detail and justified the reason for the request."
+          required: true
+        - label: "Provided specific use cases and examples."
+          required: true
+
+  - id: feature-description
+    type: textarea
+    attributes:
+      label: "Feature description"
+      description: "Please provide a detailed description of the feature you are requesting."
+      placeholder: "Describe the feature in detail..."
+    validations:
+      required: true
+
+  - id: use-cases
+    type: textarea
+    attributes:
+      label: "Use cases"
+      description: "Please provide specific use cases where this feature would be useful."
+      placeholder: "Describe use cases..."
+    validations:
+      required: true
+
+  - id: alternatives
+    type: textarea
+    attributes:
+      label: "Alternatives"
+      description: "Please describe any alternative solutions or features you've considered."
+      placeholder: "Describe alternatives..."
+    validations:
+      required: false
+
+  - id: additional-context
+    type: textarea
+    attributes:
+      label: "Additional context"
+      description: "Add any extra details or context that might help in understanding your request."
+      placeholder: "Add any other context here..."
+    validations:
+      required: false
