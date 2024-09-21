@@ -1,0 +1,16 @@
+# Copy this file form here to your TARGET PROJECT (e.g. https://github.com/esptool/.github/workflows/call-pre-commit.yml)
+
+# If you have another versions of pre-commit hooks Github Action workflow already in your repo,
+# (e.g. https://github.com/esptool/.github/workflows/pre-commit.yml) you should remove them
+# with adding this file to your repo to avoid conflicts and double execution of the same tasks.
+
+# Keep it slim after adding to your repo and remove all absolutely unnecessary comments.
+---
+name: Pre-commit (PR code changes)
+
+on:
+  pull_request:
+
+jobs:
+  call-pre-commit:
+  uses: espressif/.github/.github/workflows/reusable-pre-commit.yml@main

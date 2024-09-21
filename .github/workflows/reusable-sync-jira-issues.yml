@@ -1,0 +1,33 @@
+---
+# Reusable workflow in  "espressif/.github" repository (Organization level)
+name: Sync JIRA - Issues
+
+on:
+  workflow_call:
+    inputs:
+      jira-project:
+        description: 'Jira project name'
+        required: true
+        type: string
+
+      jira-component:
+        description: 'Jira component name'
+        required: false
+        type: string
+        default: 'GitHub'
+
+jobs:
+  sync-jira-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync JIRA - Issues
+        uses: espressif/sync-jira-actions@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JIRA_PASS: ${{ secrets.JIRA_PASS }}
+          JIRA_PROJECT: ${{ inputs.jira-project }}
+          JIRA_COMPONENT: ${{ inputs.jira-component }}
+          JIRA_URL: ${{ secrets.JIRA_URL }}
+          JIRA_USER: ${{ secrets.JIRA_USER }}

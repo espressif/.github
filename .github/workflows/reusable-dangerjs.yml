@@ -1,0 +1,132 @@
+---
+# Reusable workflow in  "espressif/.github" repository (Organization level)
+name: DangerJS (PR style linter)
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        description: 'The pull request head reference'
+        required: true
+        type: string
+      rule-description:
+        description: 'Enable rule for PR Description'
+        required: false
+        type: string
+        default: 'true'
+      rule-commit-messages:
+        description: 'Enable rule for PR Lint Commit Messages'
+        required: false
+        type: string
+        default: 'true'
+      rule-size-lines:
+        description: 'Enable rule for PR Size (changed lines)'
+        required: false
+        type: string
+        default: 'true'
+      rule-source-branch:
+        description: 'Enable rule for PR Source branch name'
+        required: false
+        type: string
+        default: 'true'
+      rule-target-branch:
+        description: 'Enable rule for PR Target branch name'
+        required: false
+        type: string
+        default: 'true'
+      rule-max-commits:
+        description: 'Enable rule for PR Too Many Commits'
+        required: false
+        type: string
+        default: 'true'
+      commit-messages-types:
+        description: 'Allowed commit message "Type"s'
+        required: false
+        type: string
+        default: 'change,ci,docs,feat,fix,refactor,remove,revert,test'
+      commit-messages-max-body-line-length:
+        description: 'Max length for commit message "Body" line'
+        required: false
+        type: string
+        default: '100'
+      commit-messages-max-summary-length:
+        description: 'Max length for commit message "Summary"'
+        required: false
+        type: string
+        default: '72'
+      commit-messages-min-summary-length:
+        description: 'Min length for commit message "Summary"'
+        required: false
+        type: string
+        default: '20'
+      description-ignore-sections:
+        description: 'Sections of PR description to ignore when counting length'
+        required: false
+        type: string
+        default: 'related,release,breaking'
+      max-size-lines:
+        description: 'Max changed code lines in PR'
+        required: false
+        type: string
+        default: '1000'
+      max-commits-info:
+        description: 'Soft limit for maximum commits in PR'
+        required: false
+        type: string
+        default: '2'
+      max-commits-warn:
+        description: 'Hard limit for maximum commits in PR'
+        required: false
+        type: string
+        default: '5'
+      instructions-contributions-file:
+        description: 'Path to CONTRIBUTING.md or other instructions file'
+        required: false
+        type: string
+        default: ''
+      instructions-gitlab-mirror:
+        description: 'Enable GitLab mirror instructions'
+        required: false
+        type: string
+        default: 'false'
+      instructions-cla-link:
+        description: 'Link to CLA (Contributor License Agreement)'
+        required: false
+        type: string
+        default: ''
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  dangerjs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Pull Request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+
+      - name: DangerJS (PR style linter)
+        uses: espressif/shared-github-dangerjs@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          rule-description: ${{ inputs.rule-description }}
+          rule-commit-messages: ${{ inputs.rule-commit-messages }}
+          rule-size-lines: ${{ inputs.rule-size-lines }}
+          rule-source-branch: ${{ inputs.rule-source-branch }}
+          rule-target-branch: ${{ inputs.rule-target-branch }}
+          rule-max-commits: ${{ inputs.rule-max-commits }}
+          commit-messages-types: ${{ inputs.commit-messages-types }}
+          commit-messages-max-body-line-length: ${{ inputs.commit-messages-max-body-line-length }}
+          commit-messages-max-summary-length: ${{ inputs.commit-messages-max-summary-length }}
+          commit-messages-min-summary-length: ${{ inputs.commit-messages-min-summary-length }}
+          description-ignore-sections: ${{ inputs.description-ignore-sections }}
+          max-size-lines: ${{ inputs.max-size-lines }}
+          max-commits-info: ${{ inputs.max-commits-info }}
+          max-commits-warn: ${{ inputs.max-commits-warn }}
+          instructions-contributions-file: ${{ inputs.instructions-contributions-file }}
+          instructions-gitlab-mirror: ${{ inputs.instructions-gitlab-mirror }}
+          instructions-cla-link: ${{ inputs.instructions-cla-link }}
