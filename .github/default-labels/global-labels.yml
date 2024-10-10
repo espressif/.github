@@ -1,0 +1,134 @@
+---
+# This is for now only list of standard Espressif issue/PR labels as a reference.
+# Config files can be combined and projects grouped. For example, all org projects
+#  will have set 'global-labels', then defined subset of projects 'global-labels' + 'component-labels', etc ...
+
+# We plan to integrate it with GitHub action https://github.com/EndBug/label-sync
+#  and sync labels to org projects from one place. This needs to be tested first.
+
+# Properties explanation:
+#  name - The name of the label.
+#  color - The color of the label.
+#  description - [optional] The description of the label.
+#  aliases - [optional] An array containing the "aliases" of the label. If an existing label's name is an alias that label will be edited to match your config: this way you don't loose issues and PRs that have been labeled previously.
+
+# Issue types
+- name: 'Type: Bug'
+  description: 'Bug report'
+  color: '#ee0701'
+  aliases: ['bug']
+
+- name: 'Type: Feature Request'
+  description: 'Feature request'
+  color: '#84b6eb'
+  aliases: []
+
+- name: 'Type: Enhancement'
+  description: 'Issue related to project performance'
+  color: '#adecee'
+  aliases: ['enhancement']
+
+- name: 'Type: Question'
+  description: 'Further information is requested'
+  color: '#c1437a'
+  aliases: ['question']
+
+- name: 'Type: Infrastructure'
+  description: 'Issue related to project performance'
+  color: '#c5a251'
+  aliases: ['infrastructure']
+
+- name: 'Type: Doc'
+  description: 'Issue related to project documentation'
+  color: '#2076c4'
+  aliases: ['documentation']
+
+- name: 'Type: Performance'
+  description: 'Issue related to project performance'
+  color: '#fbca04'
+
+- name: 'Type: Dependencies'
+  description: 'Dependencies and version updates'
+  color: '#FE8547'
+  aliases: ['dependencies']
+
+- name: 'Type: Security'
+  description: 'Security updates'
+  color: '##D9AEC5'
+  aliases: []
+
+# Community labels
+- name: 'Help wanted'
+  description: 'Need some help with this one'
+  color: '#008672'
+  aliases: ['help wanted']
+
+- name: 'Good first issue'
+  description: 'Good for newcomers'
+  color: '#6960f6'
+  aliases: ['good first issue']
+
+- name: 'Invalid'
+  description: "This doesn't seem right"
+  color: '#e5e47a'
+  aliases: ['invalid']
+
+# JIRA Resolutions
+- name: 'Resolution: Cannot Reproduce'
+  description: 'Issue cannot be reproduced'
+  color: '#C2E0C6'
+
+- name: 'Resolution: Duplicate'
+  description: 'This issue or pull request already exists'
+  color: '#C2E0C6'
+  aliases: ['duplicate']
+
+- name: "Resolution: Won't Do"
+  description: 'This will not be worked on'
+  color: '#C2E0C6'
+  aliases: ['wontfix']
+
+- name: 'Resolution: Done'
+  description: 'Issue is done internally'
+  color: '#C2E0C6'
+
+- name: 'Resolution: NA'
+  description: 'Issue resolution is unavailable'
+  color: '#C2E0C6'
+
+# JIRA Work status
+- name: 'Status: In Progress'
+  description: 'Work is in progress'
+  color: '#1D76DB'
+
+- name: 'Status: Pending'
+  description: 'Blocked by some other factor'
+  color: '#fef2c0'
+
+- name: 'Status: Opened'
+  description: 'Issue is new, not started'
+  color: '#EDEDED'
+
+- name: 'Status: Done'
+  description: 'Issue is done internally'
+  color: '#0E8A16'
+
+- name: 'Status: Reviewing'
+  description: 'Issue is being reviewed'
+  color: '#1D76DB'
+
+- name: 'Status: Resolved'
+  description: 'Issue is done internally'
+  color: '#0E8A16'
+
+- name: 'Status: Cancelled'
+  description: 'Canceled in progress'
+  color: '#0E8A16'
+
+- name: 'Status: Awaiting Response'
+  description: 'Awaiting a response from the author'
+  color: '#FF1493'
+
+- name: 'Status: Selected for Development'
+  description: 'We will start soon'
+  color: '#ededed'
