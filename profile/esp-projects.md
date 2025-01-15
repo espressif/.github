@@ -11,8 +11,7 @@ Espressif Frameworks and SDKs is a collection of tools to help and accelerate th
 | [Arduino-ESP32](https://github.com/espressif/arduino-esp32) | Arduino core for ESP32                                                                                                                                        |
 | [ESP-ADF](https://github.com/espressif/esp-adf)             | ESP-ADF (Audio Development Framework) is the official audio development framework for the ESP32, ESP32-S2, and ESP32-S3 SoCs.                                 |
 | [ESP-IDF](https://github.com/espressif/esp-idf)             | ESP-IDF (IoT Development Framework ) is the development framework for Espressif SoCs supported on Windows, Linux, and macOS.                                  |
-| [ESP-SR](https://github.com/espressif/esp-sr)               | ESP-SR (Speech Recognition) provides basic algorithms for Speech Recognition applications.                                                                    |
-| [ESP-WHO](https://github.com/espressif/esp-who)             | ESP-WHO is an image processing development platform based on Espressif chips. It contains development examples that may be applied in practical applications. |
+| [ESP-Matter](https://github.com/espressif/esp-matter)       | Espressif's SDK for Matter is the official Matter development framework for ESP32 series SoCs. |
 
 ## Solutions
 
@@ -30,9 +29,10 @@ If you are looking for a complete solution based on our frameworks, take a look 
 | [ESP-NOW](https://github.com/espressif/esp-now)                              | Connectionless Wi-Fi Communication Protocol                                                                                                                              |
 | [ESP-RainMaker](https://github.com/espressif/esp-rainmaker)                  | ESP-RainMaker                                                                                                                                                            |
 | [ESP-Skainet](https://github.com/espressif/esp-skainet)                      | ESP-Skainet is Espressif's intelligent voice assistant, which currently supports the Wake Word Engine and Speech Commands Recognition.                                   |
+| [ESP-SR](https://github.com/espressif/esp-sr)               | ESP-SR (Speech Recognition) provides basic algorithms for Speech Recognition applications.                                                                    |
 | [ESPTOOL](https://github.com/espressif/esptool)                              | A Python-based, open-source, platform-independent utility to communicate with the ROM bootloader in Espressif chips.                                                     |
 | [ESP-Mesh-Lite](https://github.com/espressif/esp-mesh-lite) | ESP-MESH-LITE is a Wi-Fi networking application of [IoT-Bridge](https://github.com/espressif/esp-iot-bridge), based on the SoftAP + Station mode, a set of Mesh solutions built on top of the Wi-Fi protocol. |
-
+| [ESP-WHO](https://github.com/espressif/esp-who)             | ESP-WHO is an image processing development platform based on Espressif chips. It contains development examples that may be applied in practical applications. |
 
 ## Components and Libraries
 
