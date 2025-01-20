@@ -25,7 +25,7 @@ Below you can find a selection of Espressif’s open-source projects. Our full r
 
 Our full repository list can be found [here](https://github.com/orgs/espressif/repositories).
 
-To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](profile/esp-projects.md).
+To know more about our frameworks, solutions and Libraries, see this brief explanation for some of our projects: [Espressif Projects](esp-projects.md).
 
 If you are looking for the official ESP-IDF documentation, click on [this](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html) link and select the ESP32 series you are interested in from the dropdown menu in the top left corner.
 
