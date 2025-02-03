@@ -1,0 +1,160 @@
+---
+# This is for now only list of standard Espressif issue/PR labels as a reference.
+# Config files can be combined and projects grouped. For example, all org projects
+#  will have set 'global-labels'+'jira-labels', then defined subset of projects also 'component-labels'
+
+# We plan to integrate it with GitHub action https://github.com/EndBug/label-sync
+#  and sync labels to org projects from one place. This needs to be tested first.
+
+# Properties explanation:
+#  name - The name of the label.
+#  color - The color of the label.
+#  description - [optional] The description of the label.
+#  aliases - [optional] An array containing the "aliases" of the label. If an existing label's name is an alias that label will be edited to match your config: this way you don't loose issues and PRs that have been labeled previously.
+
+
+# (List of components based on https://github.com/espressif/idf-extra-components)
+- name: 'Component: bdc_motor'
+  description: 'Component: bdc_motor'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: coap'
+  description: 'Component: coap'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: coremark'
+  description: 'Component: coremark'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: dhara'
+  description: 'Component: dhara'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: esp_delta_ota'
+  description: 'Component: esp_delta_ota'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: esp_driver_sccb'
+  description: 'Component: esp_driver_sccb'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: esp_encrypted_img'
+  description: 'Component: esp_encrypted_img'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: esp_jpeg'
+  description: 'Component: esp_jpeg'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: esp_serial_slave_link'
+  description: 'Component: esp_serial_slave_link'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: fmt'
+  description: 'Component: fmt'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: freetype'
+  description: 'Component: freetype'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: jsmn'
+  description: 'Component: jsmn'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: json_generator'
+  description: 'Component: json_generator'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: json_parser'
+  description: 'Component: json_parser'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: led_strip'
+  description: 'Component: led_strip'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: libsodium'
+  description: 'Component: libsodium'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: network_provisioning'
+  description: 'Component: network_provisioning'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: new request'
+  description: 'Component: new request'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: nghttp'
+  description: 'Component: nghttp'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: onewire_bus'
+  description: 'Component: onewire_bus'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: openCV'
+  description: 'Component: openCV'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: pcap'
+  description: 'Component: pcap'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: pid_ctrl'
+  description: 'Component: pid_ctrl'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: qrcode'
+  description: 'Component: qrcode'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: sh2lib'
+  description: 'Component: sh2lib'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: spi_nand_flash'
+  description: 'Component: spi_nand_flash'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: supertinycron'
+  description: 'Component: supertinycron'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: thorvg'
+  description: 'Component: thorvg'
+  color: '#caedfb'
+  aliases: []
+
+- name: 'Component: usb'
+  description: 'Component: usb'
+  color: '#caedfb'
+  aliases: []
