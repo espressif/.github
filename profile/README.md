@@ -1,7 +1,9 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="github-banner-black.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="github-banner-white.webp" />
+    <!-- <source media="(prefers-color-scheme: dark)" srcset="github-banner-black.webp" />
+    <source media="(prefers-color-scheme: light)" srcset="github-banner-white.webp" /> -->
+    <source media="(prefers-color-scheme: dark)" srcset="devcon-banner-black.webp" />
+    <source media="(prefers-color-scheme: light)" srcset="devcon-banner-white.webp" />
     <img alt="Supported Platforms" src="github-banner-white.webp" width="90%" />
   </picture>
 </div>
@@ -10,6 +12,12 @@
 
 All of Espressif’s official software, relating to the various series of ESP32 SoCs, are available on this GitHub organization.
 To check out all the series of SoCs from Espressif, please visit our [ESP Product Selector](https://products.espressif.com).
+
+## DevCon26
+
+Espressif DevCon 2026 marks its 5th anniversary with its first-ever live event in Milan, Italy, on November 3–4, 2026.
+
+For more information visit [DevCon26](https://devcon.espressif.com/).
 
 ## Get Started
 
