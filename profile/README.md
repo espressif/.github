@@ -1,9 +1,7 @@
 <div align="center">
   <picture>
-    <!-- <source media="(prefers-color-scheme: dark)" srcset="github-banner-black.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="github-banner-white.webp" /> -->
-    <source media="(prefers-color-scheme: dark)" srcset="devcon-banner-black.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="devcon-banner-white.webp" />
+    <source media="(prefers-color-scheme: dark)" srcset="github-banner-black.webp" />
+    <source media="(prefers-color-scheme: light)" srcset="github-banner-white.webp" />
     <img alt="Supported Platforms" src="github-banner-white.webp" width="90%" />
   </picture>
 </div>
